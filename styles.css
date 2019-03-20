@@ -21,3 +21,28 @@
   justify-content: flex-end;
 }
 
+.header {
+  height: 100vh;
+  background-image: url("images/headerback.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.description {
+  position: absolute;
+  top: 20%;
+  margin: auto;
+  padding: 2em;
+}
+
+.description button {
+  border: 1px solid black;
+  background: black;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
