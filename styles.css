@@ -46,7 +46,39 @@ body {
   color: #fff;
 }
 
-.container {
+.headerWrapper {
   display: flex;
+  justify-content: center;
+}
+
+.about {
+  padding: 2em;
+  position: relative;
+  height: 100vh;
+  background-color: #f7f7f1;
+}
+
+.about img {
+  height: 100%;
+  width: 100%;
+}
+.about span {
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+}
+.about p {
+  line-height: 2;
+  color: black;
+  margin-left: -10%;
+}
+.aboutTitle {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
