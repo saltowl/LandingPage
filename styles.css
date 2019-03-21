@@ -51,7 +51,7 @@ body {
   justify-content: center;
 }
 
-.about {
+.about, .info {
   padding: 2em;
   position: relative;
   background-color: #f7f7f1;
@@ -90,4 +90,20 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.info img {
+  position: relative;
+  margin: 1em;
+  height: 5vw;
+}
+
+.info h1 {
+  padding: 10vh;
+  font-weight: 900;
+}
+
+.info h4 {
+  padding: 5vh;
+  font-weight: 600;
 }
