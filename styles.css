@@ -82,3 +82,19 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.portfolio {
+  position: relative;
+  height: 100vh;
+}
+
+.portfolio .img-wrap {
+  position: relative;
+  margin: 1em;
+}
+
+.img-wrap p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
